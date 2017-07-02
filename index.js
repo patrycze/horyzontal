@@ -4,7 +4,7 @@ var app = express();
 
 app.use(express.static(__dirname + '/public'));
 
-app.set('port', (process.env.PORT || 8000));
+port = process.env.PORT || 8000;
 
 /*
 //views is directory for all template files 
